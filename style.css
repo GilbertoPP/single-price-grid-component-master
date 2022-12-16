@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 55rem;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0rem 0.5rem 3rem rgba(0, 0, 0, 0.1);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-1 {
+  grid-column: 1/-1;
+  background-color: #fff;
+  padding: 3.2rem 3.2rem 3.2rem 3.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title-1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.paragraph-1 {
+  color: hsl(218, 22%, 67%);
+  font-size: 1.3rem;
+  margin-right: 1.4rem;
+  line-height: 1.6;
+}
+
+.section-2 {
+  background-color: #2bb3b1;
+  padding: 3.2rem 3.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title-2 {
+  font-size: 1.6rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.price-tag {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price-tag strong {
+  color: hsl(204, 43%, 93%);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.price-tag p {
+  font-size: 1.3rem;
+  color: #6fd2d4;
+}
+
+.paragraph-2 {
+  color: hsla(203, 44%, 93%, 0.856);
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  background-color: hsl(71, 73%, 54%);
+  padding: 1.3rem 1rem;
+  border-radius: 4px;
+  box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.section-3 {
+  background-color: #4abebd;
+  padding: 3rem 3.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list {
+  list-style: none;
+  color: hsla(203, 44%, 93%, 0.692);
+  font-size: 1.1rem;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+}
