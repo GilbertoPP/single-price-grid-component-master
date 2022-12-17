@@ -1,0 +1,7 @@
+/*BELOW 400px*/
+@media (max-width: 25em) {
+  .card {
+    grid-template-columns: 1fr;
+    margin: 6rem 3rem;
+  }
+}
